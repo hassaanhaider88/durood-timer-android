@@ -15,6 +15,7 @@ android.permissions = SYSTEM_ALERT_WINDOW,FOREGROUND_SERVICE,WAKE_LOCK,POST_NOTI
 android.api = 33
 android.minapi = 24
 android.archs = arm64-v8a,armeabi-v7a
+android.accept_sdk_license = True
 
 services = Timer:service.py:foreground
 
